@@ -1,0 +1,223 @@
+/* Header */
+.header{
+    box-shadow: 0 1px 3px 0 rgba(0 0 0 ,0.1);
+    background: var(--bg-1);
+    padding: 0 40px;
+}
+
+.header .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--bg-1);
+}
+
+.header .inner-logo a{
+    display: flex;
+    align-items: center;
+}
+
+
+.header .inner-logo img{
+    height: 50px;
+    width: auto;
+}
+
+.header .inner-menu ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header .inner-menu ul li a{
+    color: #000;
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.header .inner-menu ul li a:hover{
+    background: #fff;
+}
+.header .inner-icon ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header .inner-icon ul li{
+    margin-left: 10px;
+}
+.header .inner-icon ul li a{
+   
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    color: #000;
+    background: #fff;
+}
+
+/* 
+end header */
+
+/* section-one */
+
+.section-one{
+    background-image: url(../images/background1.jpg) ;
+    padding: 100px 0;
+    position: relative;
+}
+
+.section-one::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.section-one .inner-wrap{
+    position: relative;
+    /* làm z-index(mặc định position:static(ko dùng được z-index)) inner-wrap == ::before(mặc định positon:absolure = 0 ) */
+}
+.section-one .inner-wrap .inner-sub-title{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.section-one .inner-wrap .inner-title{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+.section-one .inner-wrap .inner-desc{
+    color: #fff;
+    margin-bottom: 30px;
+    
+}
+.section-one  .button{
+    margin-right: 10px;
+}
+
+/* end section-one */
+
+
+/* button */
+.button{
+    color:var(--color-two);
+    background: #fff;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.button-two{
+    background: var(--color-two);
+    color: #fff;
+    border-color: var(--color-two);
+}
+
+.button-two:hover{
+    background: #fff;
+    border-color: #fff;
+}
+
+
+.button-one{
+    background: transparent;
+    color: #fff;
+}
+
+.button-two:hover{
+    background: transparent;
+    color: #fff;
+    border-color: var(--color-two);;
+}
+
+
+/* section-two */
+.section-two{
+    padding:80px 0 50px;
+    background: var(--bg-1);
+}
+
+.section-two .inner-wrap{
+    display: flex;
+    align-items: center;
+    /* căn giữa chiều ngang */
+
+}
+.section-two .inner-wrap .inner-image {
+    width: 40%;
+    margin-right: 5%;
+    
+}
+.section-two .inner-wrap .inner-image img{
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+
+}
+
+.section-two .inner-wrap .inner-content{
+    margin-left: 60px;
+    flex:1;
+    /*  Để giữ cho ảnh ko bị thu nhỏ khi thêm text vào element bên cạnh*/
+}
+.section-two .inner-wrap .inner-sub-title{
+    color: #777777;
+    font-size: 20px;
+}
+.section-two .inner-wrap  .inner-title{
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+.section-two .inner-wrap .inner-list{
+    display: flex;
+}
+
+.section-two .inner-wrap .inner-item{
+    /* căn giữa  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* căn theo chiều dọc icon vs text */
+    flex-direction: column;
+   
+    background: #fff;
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.section-two .inner-wrap .inner-item i{
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: var(--color-one);
+
+
+}
+
+
+
+
+/* END section-two */
