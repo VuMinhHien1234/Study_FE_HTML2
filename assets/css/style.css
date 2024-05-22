@@ -14,21 +14,18 @@
     justify-content: space-between;
     align-items: center;
     color: var(--bg-1);
-
 }
 
 .header .inner-logo span{
     color: #000;
     font-weight: 900;
     font-size: 30px;
-   
 }
 
 .header .inner-logo a{
     display: flex;
     align-items: center;
 }
-
 
 .header .inner-logo img{
     height: 50px;
@@ -52,6 +49,7 @@
 .header .inner-menu ul li a:hover{
     background: #fff;
 }
+
 .header .inner-icon ul{
     list-style-type: none;
     display: flex;
@@ -62,6 +60,7 @@
 .header .inner-icon ul li{
     margin-left: 10px;
 }
+
 .header .inner-icon ul li a{
     display: inline-flex;
     align-items: center;
@@ -129,11 +128,13 @@ end header */
     margin-bottom: 20px;
     
 }
+
 .section-one .inner-wrap .inner-desc{
     color: #fff;
     margin-bottom: 30px;
     
 }
+
 .section-one  .button{
     margin-right: 10px;
 }
@@ -178,12 +179,12 @@ end header */
     background: transparent;
     color: #fff;
 }
+
 .button-one:hover{
     background: var(--color-two);
     color: #000;
     border-color: var(--color-two);
 }
-
 
 .button-two:hover{
     background: transparent;
@@ -213,7 +214,7 @@ end header */
 .section-two .inner-wrap{
     display: flex;
     align-items: center;
-    /* căn giữa chiều ngang */
+  
 
 }
 .section-two .inner-wrap .inner-image {
@@ -230,17 +231,18 @@ end header */
 .section-two .inner-wrap .inner-content{
     flex:1;
 }
+
 .section-two .inner-wrap .inner-sub-title{
     color: #777777;
     font-size: 20px;
 }
+
 .section-two .inner-wrap .inner-title{
     font-weight: 800;
     font-size: 60px;
     margin-top: 0;
     margin-bottom: 30px;
 }
-
 
 .section-two .inner-wrap .inner-list{
     display: flex;
@@ -297,7 +299,6 @@ end header */
 
 /* END section-two */
 
-
 /* section-three */
 .section-three{
     background: var(--bg-1);
@@ -341,8 +342,6 @@ end header */
     width: 100%;
     position: absolute;
     bottom: -48px;
-
-
 }
 
 @media (max-width: 1199px){
@@ -395,15 +394,11 @@ end header */
         font-size:38px;
     }
 
-
 }
-
 
 /* END section-three */
 
-
 /* Section-four */
-
 
 .section-four {
 
@@ -427,7 +422,6 @@ end header */
     font-size: 40px;
     margin-bottom: 15px;
 }
-
 
 .section-four .inner-box {
     box-shadow: 2px 4px 3px 2px rgb(0 0 0 /10%);
@@ -474,13 +468,7 @@ end header */
         margin-bottom: 30px;
     }
 }
-
-
-
 /* END Section-four */
-
-
-
 
 
 /* Box head */
@@ -504,9 +492,6 @@ end header */
 } 
 
 /* END Box head */
-
-
-
 
 /* Section-5 */
 .section-five{
@@ -558,14 +543,11 @@ end header */
     text-align: center;
     padding-top:20px;
     color: #000;
-
-
 }
 
 .section-five .inner-content a {
     font-weight: 800;
     color: #000;
-    
 }
 
 
@@ -593,7 +575,6 @@ end header */
     .section-five .inner-content .inner-contact {
         margin-bottom: 40px;
     }
-    
 }
 
 /* End Section-5 */
@@ -606,9 +587,7 @@ end header */
     position: relative;
     background-color: #1B2026;
     padding: 300px;
-    
 }
-
 
 .section-six .inner-wrap{
     background-color: #fff;
@@ -626,12 +605,12 @@ end header */
     border-radius: 15px;
     display: flex;
     padding: 50px;
-
 }
 
 .section-six .inner-wrap .inner-text{
     width: 50%;
 }
+
 .section-six .inner-wrap .inner-text h3{
     font-weight: 600;
     top:0;
@@ -639,6 +618,7 @@ end header */
     color: #777777;
     font-size: 20px;
 }
+
 .section-six .inner-wrap .inner-text h1{
     top:0;
     font-weight: 900;
@@ -682,16 +662,19 @@ end header */
 .contact-form{
     padding: 80px 0;
 }
+
 .contact-form .inner-wrap{
     background: #DCE7EC ;
     padding: 60px;
     border-radius: 8px;
 }
+
 .contact-form .inner-form-wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .contact-form .inner-form-wrap input{
     width: 32%;
     height: 50px;
@@ -701,6 +684,7 @@ end header */
     border-radius: 8px;
     outline: 0;
 }
+
 .contact-form .inner-form-wrap textarea{
     width: 100%;
     height: 150px;
@@ -710,6 +694,7 @@ end header */
     border-radius: 8px;
     outline: 0;
 }
+
 .contact-form .inner-button{
     text-align: right;
 }
